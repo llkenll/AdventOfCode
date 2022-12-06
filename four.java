@@ -37,7 +37,7 @@ public class four {
 	}
 	
 	
-	public static boolean overlap(String[] first, String[] second, boolean s) {
+	public static boolean contain(String[] first, String[] second, boolean s) {
 		int s1 = Integer.valueOf(first[0]);
 		int end1 = Integer.valueOf(first[1]);
 		int s2 = Integer.valueOf(second[0]);
